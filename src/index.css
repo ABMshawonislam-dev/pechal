@@ -1,11 +1,59 @@
-.one {
-  color: red;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.two {
-  color: green;
+.heading {
+  font-family: 'Nunito', sans-serif;
+  font-size: 34.4px;
+  font-weight: 700;
 }
 
-.kire {
-  border-radius: 50%;
+.registrationimg {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.regleftside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.regsubheading {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20.64px;
+  font-weight: 400;
+}
+
+.inputboxcontainer {
+  width: 368.09px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.reginput {
+  width: 100%;
+  margin-top: 56px !important;
+}
+
+.reglink {
+  font-family: 'Nunito', sans-serif;
+  font-size: 13.34px;
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.reglink a {
+  color: #EA6C00;
+  font-weight: 700;
+}
+
+.logininput {
+  width: 100%;
+  margin-top: 56px !important;
 }

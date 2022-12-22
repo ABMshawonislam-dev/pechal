@@ -12,7 +12,6 @@ const CommonButton = styled(Button)({
     width: "100%",
     padding: '19px 12px',
     backgroundColor: '#5F35F5',
-    borderRadius: "86px",
     marginTop: "56px",
     fontFamily:['Nunito', "sans-serif"],
     
@@ -21,29 +20,23 @@ const CommonButton = styled(Button)({
     },
   });
 
-
-
-
-const Registration = () => {
-
-
+const Login = () => {
   return (
-   <>
+    <>
 
 <Grid container spacing={2}>
   <Grid item xs={6}>
     <div className='regleftside'>
       <div>
         <Header>
-          <Heading title="Get started with easily register" className="heading" as="h2"/>
-          <p className='regsubheading'>Free register and you can enjoy it</p>
+          <Heading title="Login to your account!" className="heading" as="h2"/>
+          <img style={{marginTop: "20px"}} src="assets/googlelogin.png"/>
         </Header>
           <div className='inputboxcontainer'>
-            <InputBox className="reginput" label="Email Address" variant="outlined"/>
-            <InputBox className="reginput" label="Full Name" variant="outlined"/>
-            <InputBox className="reginput" label="Password" variant="outlined"/>
-            <PButton bname={CommonButton} title="Sign up"/>
-            <AuthenticationLink className="reglink" title="Already  have an account ?" href="/login" hreftitle="Sign In"/>
+            <InputBox className="logininput" label="Email Address" variant="standard"/>
+            <InputBox className="logininput" label="Password" variant="standard"/>
+            <PButton bname={CommonButton} title="Login to Continue"/>
+            <AuthenticationLink className="reglink" title="Don’t have an account ?" href="/" hreftitle="Sign Up"/>
           </div>
       </div>
     </div>
@@ -60,10 +53,4 @@ const Registration = () => {
   )
 }
 
-const kire ={
-    borderRadius: 50
-}
-
-
-
-export default Registration
+export default Login

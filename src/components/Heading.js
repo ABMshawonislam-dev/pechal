@@ -5,9 +5,9 @@ const Heading = (props) => {
   return (
     props.as == undefined
     ?
-    <h1 className={props.className}>Heading</h1>
+    <h1 className={props.className}>{props.title}</h1>
     :
-    <props.as className={props.className}>Heading</props.as>
+    <props.as className={props.className}>{props.title}</props.as>
   )
 }
 
