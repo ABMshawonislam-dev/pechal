@@ -1,7 +1,7 @@
 import React from 'react'
 const PButton = (props) => {
   return (
-    <props.bname variant="contained" disableRipple>
+    <props.bname onClick={props.click} variant="contained" disableRipple>
         {props.title}
     </props.bname>
   )

@@ -57,3 +57,14 @@
   width: 100%;
   margin-top: 56px !important;
 }
+
+.error {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.eyeicon {
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+}
